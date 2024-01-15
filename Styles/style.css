@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* shared style */
+nav h3 {
+    color: #131318;
+}
+
+/* nav section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.travel-name {
+    display: flex;
+    gap: 15px;
+}
+
+nav h3 {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.travel-name img {
+    padding-top: 37px;
+    width: 48px;
+    height: 40.008px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* nav section end */
+
+/* banner section start */
+
+/* shared style */
+
+
+
+.banner-container {
+    max-width: 1150px;
+    height: 480px;
+    margin: 50 auto;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/group13.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.banner-container h1 {
+    padding-top: 95px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-container p {
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 62%;
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-btn {
+    width: 70%;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px 16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn-primary {
+    position: relative;
+    padding-left: 0;
+    width: 23%;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    padding: 16px 76px 16px 16px;
+}
+.arrow-icon{
+    position: absolute;
+    left: 150px;
+   
+}
+.arrow-icon2{
+    position: absolute;
+    left: 150px;
+}   
+.btn-secondery {
+    position: relative;
+    width: 23%;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    padding: 16px 34px 16px 67px;
+}
+.arrow-icon3{
+    position: absolute;
+    right: 120px;
+}
