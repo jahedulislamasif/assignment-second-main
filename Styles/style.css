@@ -153,14 +153,14 @@ nav a {
 
 /* banner section end */
 /* share style */
-.tour-tittle h2 {
+.tour-tittle h2, .destination-container h2, .chooose-container h2 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
 .tour-tittle p,
-.tour-tittle li {
+.tour-tittle li, .destination-container p, .chooose-container p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -199,4 +199,39 @@ nav a {
 .tour-img img{
     width: 100%;
     height: 100%;
+}
+/* tour section ended */
+/* destination section start */
+
+.destination-container{
+    max-width: 1150px;
+    border: 2px solid red;
+    margin: 50px auto;
+}
+.destination-container h2, .destination-container p{
+    text-align: center;
+}
+.destination-img img{
+    width: 100%;
+    height: 100%;
+}
+.destination-img{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(4, 1fr) ; */
+    gap: ;
+    
+}
+
+.one{
+   grid-column: 1/span 2;
+}
+
+/* choose section */
+
+.chooose-container{
+    max-width: 1150px;
+    margin: 100px auto;
+    text-align: center;
 }
