@@ -244,7 +244,7 @@ nav a {
 
 .chooose-container {
     max-width: 1150px;
-    margin: 100px auto;
+    margin: 50px auto;
     /* text-align: center; */
 }
 
@@ -297,7 +297,7 @@ nav a {
 
 .guarantee {
     margin-top: 0px;
-    margin-left: 300px;
+    margin-left: 280px;
     padding: 20px;
     width: 48%;
     border-radius: 16px;
@@ -309,6 +309,78 @@ nav a {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+}
+
+/* choose section end */
+/* newsletter section start */
+.newsletter {
+    max-width: 1150px;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.newsletter-tittle {
+    padding: 20px;
+    width: 35%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    /* border: 2px solid red; */
+}
+
+.newsletter-tittle h4 {
+    margin-bottom: 0;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-tittle p {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.newsletter-tittle input {
+    /* padding: 16px 200px 16px 20px; */
+    width: 96%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+form .name-input {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.newsletter-tittle .btn-fourth {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    /* padding: 14px 163px 13px 150px; */
+    padding-top: 14px;
+    padding-bottom: 13px;
+    width: 100%;
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.newsletter img{
+    width: 100%;
+    margin-left: 20px;
 }
 
 /* footer section start */
@@ -329,7 +401,8 @@ footer {
     width: 48px;
     height: 40.008px;
 }
-footer h3{
+
+footer h3 {
     font-size: 2.25rem;
     font-weight: 800;
 }

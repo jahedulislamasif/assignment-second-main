@@ -106,6 +106,7 @@
         width: 90%;
     }
     .about-container{
+        /* margin-bottom: 50px; */
         margin-left: 0;
         /* margin-right: 20px; */
         flex-direction: column;
@@ -122,7 +123,8 @@
         margin-left: 0;
     }
     .guarantee{
-        
+        padding: 18px;
+        /* margin: 0 3px; */
         width: 90%;
         margin: 0;
     }
@@ -141,6 +143,32 @@
     }
     footer h6{
         font-size: 0.8rem;
+        width: 100%;
+    }
+    .newsletter{
+        flex-direction: column;
+        width: 100%;
+    }
+    .newsletter-tittle{
+        margin-top: 0;
+        width: 95%;
+        padding: 10px;
+    }
+    .newsletter-tittle h4{
+        font-size: 1.25rem;
+    }
+    .newsletter-tittle p{
+        font-size: 0.8rem;
+    }
+    .newsletter-tittle input{
+        width: 96%;
+    }
+    .newsletter-tittle .btn-fourth{
+        width: 100%;
+    }
+    .newsletter img{
+        margin-top: 20px;
+        margin-left: 0;
         width: 100%;
     }
 }
