@@ -131,6 +131,42 @@
     .about img, .guarantee img{
         /* width: 100%; */
     }
+    .destination-container h2{
+        font-size: 1.25rem;
+    }
+    .destination-container p{
+        font-size: 0.8rem;
+        width: 70%;
+    }
+    .destination-img .one, .destination-img .two, .destination-img .three{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .one img{
+        width: 100%;
+        height: 230px;
+    }
+    .river img{
+        width: 100%;
+        /* height: 95%; */
+    }
+    .mountain img{
+        width: 100%;
+        height: 230px;
+    }
+    .two img{
+        width: 100%;
+        height: 230px;
+    }
+
+
+
+
+
+
+
+
+
     .footer{
         width: 100%;
     }
