@@ -244,18 +244,18 @@ nav a {
 .destination-img .three{
     margin-top: 5px;
     display: flex;
-    gap: 13px;
+    /* gap: 2px; */
 }
 .three img{
     /* width:  50%; */
 }
 .river img{
-    width: 100%;
+    width: 98.45%;
     /* height: 97%; */
     /* border: 2px solid red; */
 }
 .mountain img{
-    width: 98%;
+    width: 98.45%;
 }
 
 
