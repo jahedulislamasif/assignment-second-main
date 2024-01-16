@@ -87,15 +87,41 @@
     .tour-tittle {
         width: 90%;
     }
-    .tour-tittle h2{
+    .tour-tittle h2, .choose-tittle h2{
         font-size: 1.25rem;
     }
 
     .tour-tittle p,
-    .tour-tittle li {
+    .tour-tittle li, .choose-tittle p {
         font-size: 0.8rem;
     }
     .tour-container img {
         width: 100%;
+    }
+    .choose-tittle{
+        width: 100%;
+    }
+    .about{
+        width: 90%;
+    }
+    .about-container{
+        margin-left: 0;
+        /* margin-right: 20px; */
+        flex-direction: column;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 1.25rem;
+    }
+    .about p{
+        font-size: 0.8rem;
+    }
+    .choose-tittle{
+        margin-left: 0;
+    }
+    .guarantee{
+        
+        width: 90%;
+        margin: 0;
     }
 }
