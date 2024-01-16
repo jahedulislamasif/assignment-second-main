@@ -96,7 +96,8 @@
         font-size: 0.8rem;
     }
     .tour-container img {
-        width: 100%;
+        padding-left: 0;
+        width: 99%;
     }
     .choose-tittle{
         width: 100%;
@@ -109,6 +110,7 @@
         /* margin-right: 20px; */
         flex-direction: column;
         width: 100%;
+        gap: 5px;
     }
     .about h4{
         font-size: 1.25rem;
@@ -123,5 +125,22 @@
         
         width: 90%;
         margin: 0;
+    }
+    .about img, .guarantee img{
+        /* width: 100%; */
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer-name{
+        margin: 0;
+    }
+    footer p {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    footer h6{
+        font-size: 0.8rem;
+        width: 100%;
     }
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
     font-family: 'Mulish', sans-serif;
@@ -255,12 +256,14 @@ nav a {
     align-items: center;
 
 }
-.choose-tittle{
+
+.choose-tittle {
     margin-bottom: 40px;
     text-align: center;
 }
-.choose-tittle h2{
-    margin-bottom: 0 ;
+
+.choose-tittle h2 {
+    margin-bottom: 0;
 }
 
 .about {
@@ -286,7 +289,8 @@ nav a {
     font-weight: 400;
 }
 
-.about img {
+.about img,
+.guarantee img {
     padding-bottom: 0;
     width: 10%;
 }
@@ -305,4 +309,59 @@ nav a {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+}
+
+/* footer section start */
+footer {
+    max-width: 1150px;
+    height: 300px;
+    border: 2px s0lid red;
+}
+
+.footer-name {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-name img {
+    padding-top: 37px;
+    width: 48px;
+    height: 40.008px;
+}
+footer h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon {
+
+    margin-top: 30px;
+    /* display: flex; */
+}
+
+.social-icon {
+    margin-left: 10px;
+}
+
+footer h6 {
+    font-family: 'Inter', sans-serif;
+    width: 600px;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: normal;
 }
