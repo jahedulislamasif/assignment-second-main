@@ -237,7 +237,8 @@ nav a {
 .one img {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
-     rgba(19, 19, 24, 0.20) 100%) 
+     rgba(19, 19, 24, 0.20) 100%); 
+     border-radius: 16px;
     width: 49%;
 }
 
@@ -248,7 +249,9 @@ nav a {
 
 .two img{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
-     rgba(19, 19, 24, 0.20) 100%)
+     rgba(19, 19, 24, 0.20) 100%);
+     border-radius: 16px;
+    
 }
 .destination-img .three {
     margin-top: 5px;
@@ -258,7 +261,8 @@ nav a {
 
 .three img {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
-     rgba(19, 19, 24, 0.20) 100%)
+     rgba(19, 19, 24, 0.20) 100%);
+     border-radius: 16px;
     
 }
 
