@@ -210,51 +210,60 @@ nav a {
 
 /* tour section ended */
 /* destination section start */
-.destination-container{
+.destination-container {
     max-width: 1150px;
     margin: 100px auto;
 }
-.destination-container h2{
+
+.destination-container h2 {
     text-align: center;
     margin-bottom: 10px;
 }
-.destination-container p{
+
+.destination-container p {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
 }
-.destination-img .one{
+
+.destination-img .one {
     /* margin-left: 5px; */
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
-.one img{
+
+.one img {
 
     width: 49%;
 }
-.destination-img .two{
+
+.destination-img .two {
     display: flex;
     gap: 8px;
 }
+
 /* .two img{
     padding-left: 3px;
 } */
-.destination-img .three{
+.destination-img .three {
     margin-top: 5px;
     display: flex;
     /* gap: 2px; */
 }
-.three img{
+
+.three img {
     /* width:  50%; */
 }
-.river img{
+
+.river img {
     width: 98.45%;
     /* height: 97%; */
     /* border: 2px solid red; */
 }
-.mountain img{
+
+.mountain img {
     width: 98.45%;
 }
 
@@ -334,6 +343,7 @@ nav a {
 /* choose section end */
 /* newsletter section start */
 .newsletter {
+   
     max-width: 1150px;
     margin: 50px auto;
     /* border: 2px solid red; */
@@ -342,6 +352,7 @@ nav a {
 }
 
 .newsletter-tittle {
+    
     padding: 20px;
     width: 35%;
     border-radius: 16px;
@@ -398,9 +409,42 @@ form .name-input {
     border-radius: 8px;
     background: #FF5400;
 }
-.newsletter img{
+.newsletter-img{
+    position: relative;
+}
+
+.newsletter img {
+    
     width: 100%;
     margin-left: 20px;
+}
+
+.discount {
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 382px ;
+    bottom: 50px;
+    /* top: 20px; */
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+}
+.discount p{
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.discount h2{
+    margin-top: 0;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
 }
 
 /* footer section start */
