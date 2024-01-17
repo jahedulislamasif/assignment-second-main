@@ -235,7 +235,9 @@ nav a {
 }
 
 .one img {
-
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
+     rgba(19, 19, 24, 0.20) 100%) 
     width: 49%;
 }
 
@@ -244,9 +246,10 @@ nav a {
     gap: 8px;
 }
 
-/* .two img{
-    padding-left: 3px;
-} */
+.two img{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
+     rgba(19, 19, 24, 0.20) 100%)
+}
 .destination-img .three {
     margin-top: 5px;
     display: flex;
@@ -254,7 +257,9 @@ nav a {
 }
 
 .three img {
-    /* width:  50%; */
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%,
+     rgba(19, 19, 24, 0.20) 100%)
+    
 }
 
 .river img {
