@@ -204,9 +204,11 @@
     .discount{
         width: 50%;
         height: 25%;
-        left: 197px;
+        left: 49.5%;
+        /* right: 200%; */
+        /* left: 178px; */
         /* bottom: 100px; */
-        top: 175px;
+        top: 64%;
     }
     .discount p{
         font-size: 0.8rem;
